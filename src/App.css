@@ -11,3 +11,12 @@
   border-radius: 10px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+
+/* Responsive */
+@media (max-width: 678px) {
+  .todos__wrapper{
+    width: 90%;
+    gap: .4rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

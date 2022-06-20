@@ -18,8 +18,8 @@ const Todos = () => {
     return (
         <div>
             <h1 style={{textAlign:"center"}}>Todos App</h1>
-            { isLoading && <h1>Loading....</h1> }
-            { error && <h1>{error.message}</h1> }
+            { isLoading && <h1 style={{textAlign:"center"}}>Loading....</h1> }
+            { error && <h1 style={{textAlign:"center"}}>{error.message}</h1> }
             <section className='todos__wrapper'>
                 {
                     todos.map(todo => {
